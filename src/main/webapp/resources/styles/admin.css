@@ -1,0 +1,67 @@
+.wrapper {
+    min-height: 100vh;
+    height: auto;
+    width: 100vw;
+    background-color: #25233b;
+    color: white;
+}
+
+.content {
+    padding: 50px;
+    background-color: #25233b;
+}
+
+.back {
+    position: absolute;
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+}
+
+.table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.table th {
+    background-color: #8140be;
+    text-align: center;
+    font-weight: bold;
+}
+
+.table td, .table th {
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.rating-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rating-operation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8140be;
+    color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.ban {
+    border: 1px solid red;
+    background-color: transparent;
+    color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
